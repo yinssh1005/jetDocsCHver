@@ -85,6 +85,13 @@ jobs:
         uses: actions/deploy-pages@v1
 
   publish-indexes:
+    env:
+      ALGOLIA_APP_NAME: TC88JCJ46H
+      ALGOLIA_INDEX_NAME: cse_jetbrains_sh
+      ALGOLIA_KEY: ${{ secrets.ALGOLIA_KEY }}
+      ALGOLIA_ARTIFACT: algolia-indexes-TBE.zip
+      CONFIG_JSON_PRODUCT: TBE
+      CONFIG_JSON_VERSION: 1.0
     # Requires the build-job results
     needs: build
     runs-on: ubuntu-latest
