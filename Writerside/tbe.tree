@@ -10,7 +10,7 @@
 <!--</instance-profile>-->
 
 <instance-profile id="tbe"
-                 name="Toolbox Enterprise Demo 中文版说明书"
+                 name="Toolbox Enterprise Demo CHver"
                  start-page="TBE_Demo_Guide.md">
 
     <toc-element topic="TBE_Demo_Guide.md"/>
