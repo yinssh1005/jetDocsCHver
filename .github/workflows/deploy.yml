@@ -89,7 +89,7 @@ jobs:
     env:
       ALGOLIA_APP_NAME: TC88JCJ46H
       ALGOLIA_INDEX_NAME: cse_jetbrains_sh
-      ALGOLIA_KEY: 3e0e93f3b9a018afe37d548e4a60e289
+      ALGOLIA_KEY: ${{AKEY}}
       ALGOLIA_ARTIFACT: algolia-indexes-TBE.zip
       CONFIG_JSON_PRODUCT: TBE
       CONFIG_JSON_VERSION: 2.0
