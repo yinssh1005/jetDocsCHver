@@ -2,9 +2,17 @@
 <!DOCTYPE instance-profile
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
-<instance-profile id="hi"
-                 name="Help Instance"
-                 start-page="Default-topic.md">
+<!--<instance-profile id="hi"-->
+<!--                 name="Help Instance"-->
+<!--                 start-page="Default-topic.md">-->
 
-    <toc-element topic="Default-topic.md"/>
+<!--    <toc-element topic="Default-topic.md"/>-->
+<!--</instance-profile>-->
+
+<instance-profile id="tbe"
+                 name="Toolbox Enterprise Demo 中文版说明书"
+                 start-page="TBE_Demo_Guide.md">
+
+    <toc-element topic="TBE_Demo_Guide.md"/>
+
 </instance-profile>
