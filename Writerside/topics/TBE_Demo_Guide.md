@@ -26,19 +26,19 @@
 2. 启动 Toolbox Enterprise 之前，请阅读并接受许可协议。 您可以在安装目录中的 toolbox_user_eap.pdf 文件中找到协议文本。 
 > 要接受协议，请将 application-demo.yaml 文件中 tbe.license.accept 属性的值更改为 eap.v1。
 
-![licenseeapv1.png](licenseeapv1.png)
+![licenseeapv1.png](../images/licenseeapv1.png)
 
 3. 使用命令行进入到安装目录。
 
 （非必需）管理员邮箱，数据库账号密码，对象存储服务账户密码等可以自行修改。
-![fixsomepws.png](fixsomepws.png)
+![fixsomepws.png](../images/fixsomepws.png)
 （非必需）docker compose文件也需要按照上面的设置进行相应的修改。
-![fixyaml.png](fixyaml.png)
+![fixyaml.png](../images/fixyaml.png)
 
 4. 运行命令行 `docker-compose up` 部署 Docker Compose 配置。
 (采用 JetBrains 产品打开目录的用户可以忽略命令行说明的部分，直接在IDE里按运行按钮)
 
-![dockercomposeup.png](dockercomposeup.png)
+![dockercomposeup.png](../images/dockercomposeup.png)
 
 > * 要查看应用程序的状态，请在此目录中运行 `docker compose ps`
 > * 要停止应用程序，请在此目录中运行 `docker compose stop`
@@ -62,11 +62,11 @@
 > 确保将“Always Trust”指定为Secure Sockets Layer (SSL) 信任的设置。
 
 Docker Compose完成上述配置的部署后应该是下面的状态：
-![deploymentok.png](deploymentok.png)
+![deploymentok.png](../images/deploymentok.png)
 
 通过浏览器访问Toolbox Enterprise服务的URL：
-![done.png](done.png)
+![done.png](../images/done.png)
 
 按Login to Toolbox Enterprise按钮，然后通过下图红框处进入管理员模式：
-![enteradmin.png](enteradmin.png)
+![enteradmin.png](../images/enteradmin.png)
 

@@ -6,6 +6,5 @@
                  name="Help Instance"
                  start-page="Default-topic.md">
 
-    <toc-element topic="TBE_Demo_Guide.md"/>
     <toc-element topic="Default-topic.md"/>
 </instance-profile>
