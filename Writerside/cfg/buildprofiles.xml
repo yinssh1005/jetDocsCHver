@@ -3,7 +3,7 @@
     <variables>
         <algolia-id>TC88JCJ46H</algolia-id>
         <algolia-index>cse_jetbrains_sh</algolia-index>
-        <algolia-api-key>22e5de5efb2187943f9c0fe9c0ffea16</algolia-api-key>
+        <algolia-api-key>b6faa8a83ca2d0782664f11989ed8144</algolia-api-key>
         <web-root>https://yinssh1005.github.io/jetDocsCHver</web-root>
     </variables>
     <build-profile instance="tbe"/>

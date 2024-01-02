@@ -94,7 +94,7 @@ jobs:
       CONFIG_JSON_PRODUCT: tbe
       CONFIG_JSON_VERSION: 2.0
     # Requires the build-job results
-    needs: build
+    needs: deploy
     runs-on: ubuntu-latest
     container:
       image: registry.jetbrains.team/p/writerside/builder/algolia-publisher:2.0.32-2
