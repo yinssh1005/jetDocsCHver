@@ -1,6 +1,6 @@
 # Toolbox Enterprise Demo
 
-您可以按照以下步骤尝试搭建一个 Toolbox Enterprise 的演示环境([需要Docker Compose环境](https://dockerdocs.cn/desktop/))。
+您可以按照以下步骤尝试搭建一个 Toolbox Enterprise(TBE) 的演示环境([需要Docker Compose环境](https://dockerdocs.cn/desktop/))。
 
 > Toolbox Enterprise 演示包不包括 IDE 许可证和 Code With Me Enterprise 组件。 如果您愿意尝试，请联系我们的支持团队。
 
