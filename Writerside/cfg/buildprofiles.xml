@@ -3,7 +3,7 @@
     <variables>
         <algolia-id>TC88JCJ46H</algolia-id>
         <algolia-index>cse_jetbrains_sh</algolia-index>
-        <algolia-api-key>5f42e3db5c0bf76064824e21bfcbc961</algolia-api-key>
+        <algolia-api-key>dcabd45a8fab8f3547d22fbf5f1aa7e8</algolia-api-key>
         <web-root>https://some.domain</web-root>
     </variables>
     <build-profile instance="tbe"/>
